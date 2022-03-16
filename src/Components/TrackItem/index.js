@@ -24,7 +24,7 @@ const TrackItem = ({data, onDelete}) => {
       <FlexRow>
         <DurationText>{duration}</DurationText>
         <DeleteButton testid="delete" onClick={() => onDelete(id)}>
-          <RiDeleteBin7Line size={30} color="#ffffff" testid="delete" />
+          <RiDeleteBin7Line size={30} color="#ffffff" />
         </DeleteButton>
       </FlexRow>
     </TrackItemContainer>
