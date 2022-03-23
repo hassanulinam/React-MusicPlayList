@@ -9,7 +9,7 @@ export const AppContainer = styled.div`
 `
 
 export const TopBannerContainer = styled.div`
-  height: 40vh;
+  height: 35vh;
   width: 100%;
   padding: 40px;
   background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
@@ -37,11 +37,15 @@ export const BannerText = styled.p`
 export const PlayListContainer = styled.div`
   background-color: #152850;
   padding: 15px 30px;
+  height: 65vh;
 `
 
 export const SpaceBetweenRow = styled.div`
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 `
 
 export const PlayListHeading = styled.h1`
@@ -75,7 +79,10 @@ export const Input = styled.input`
 export const TracksListContainer = styled.ul`
   padding: 0;
   overflow-y: auto;
-  height: 50vh;
+  height: 55vh;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
 `
 export const NotFoundText = styled.p`
   color: #ffffff;
